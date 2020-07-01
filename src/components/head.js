@@ -26,8 +26,7 @@ const Head = ({ metadata }) => (
       {metadata.title}
     </title>
     <link rel="shortcut icon" href={favicon} />
-    <link rel="canonical" href="https://brittanychiang.com" />
-
+    <link rel="canonical" href="https://soum.co" />
     <meta name="description" content={metadata.description} />
     <meta name="keywords" content={config.siteKeywords} />
     <meta name="google-site-verification" content={config.googleVerification} />
@@ -52,7 +51,6 @@ const Head = ({ metadata }) => (
     <meta name="twitter:description" content={metadata.description} />
     <meta name="twitter:image" content={`${config.siteUrl}${ogImage}`} />
     <meta name="twitter:image:alt" content={metadata.title} />
-
     <link rel="apple-touch-icon" sizes="57x57" href={appleIcon57x57} />
     <link rel="apple-touch-icon" sizes="60x60" href={appleIcon60x60} />
     <link rel="apple-touch-icon" sizes="72x72" href={appleIcon72x72} />
