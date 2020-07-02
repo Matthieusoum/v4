@@ -1,7 +1,7 @@
 ---
 title: '👋 Hello there ! My name is'
 name: 'Matthieu Soum'
-subtitle: 'I bring business for my client.'
+subtitle: 'I bring business to my clients.'
 buttonText: 'Get In Touch'
 ---
 
