@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Matthieu Soum | Sales & Business Developmente',
+  siteTitle: 'Matthieu Soum | Sales & Business Development',
   siteDescription:
     'Hello, I am a business developer based in Paris, FR. My mission consists to build a strong method to bring new opportunities and increase sales for companies.',
   siteKeywords:
@@ -12,6 +12,7 @@ module.exports = {
   location: 'Paris, FR',
   email: 'matthieu@soum.co',
   github: 'https://github.com/matthieusoum',
+  linkedin: 'https://linkedin.com/in/matthieusoum',
   socialMedia: [
     {
       name: 'GitHub',

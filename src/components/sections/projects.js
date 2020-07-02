@@ -22,6 +22,14 @@ const StyledTitle = styled.h4`
     display: block;
   }
 `;
+const StyledLabel = styled.p`
+  font-size: ${fontSizes.smish};
+  font-weight: normal;
+  color: ${colors.green};
+  font-family: ${fonts.SFMono};
+  margin-top: 10px;
+  padding-top: 0;
+`;
 const StyledArchiveLink = styled(Link)`
   ${mixins.inlineLink};
   text-align: center;
@@ -66,9 +74,14 @@ const StyledProject = styled.div`
     }
   }
 `;
+
+const StyledHeader = styled.header`
+  width: 100%;
+`;
+
 const StyledProjectHeader = styled.div`
   ${mixins.flexBetween};
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 const StyledFolder = styled.div`
   color: ${colors.green};
@@ -145,7 +158,7 @@ const Projects = ({ data }) => {
 
   return (
     <StyledContainer>
-      <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
+      <StyledTitle ref={revealTitle}>Previous Work</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         view the archive
       </StyledArchiveLink>
@@ -155,7 +168,7 @@ const Projects = ({ data }) => {
           {projectsToShow &&
             projectsToShow.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { github, external, title, tech } = frontmatter;
+              const { external, title, category, tech } = frontmatter;
               return (
                 <CSSTransition
                   key={i}
@@ -170,21 +183,12 @@ const Projects = ({ data }) => {
                       transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
                     }}>
                     <StyledProjectInner>
-                      <header>
+                      <StyledHeader>
                         <StyledProjectHeader>
                           <StyledFolder>
                             <FormattedIcon name="Folder" />
                           </StyledFolder>
                           <StyledProjectLinks>
-                            {github && (
-                              <StyledIconLink
-                                href={github}
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
-                                aria-label="GitHub Link">
-                                <FormattedIcon name="GitHub" />
-                              </StyledIconLink>
-                            )}
                             {external && (
                               <StyledIconLink
                                 href={external}
@@ -196,9 +200,10 @@ const Projects = ({ data }) => {
                             )}
                           </StyledProjectLinks>
                         </StyledProjectHeader>
+                        <StyledLabel>{category}</StyledLabel>
                         <StyledProjectName>{title}</StyledProjectName>
                         <StyledProjectDescription dangerouslySetInnerHTML={{ __html: html }} />
-                      </header>
+                      </StyledHeader>
                       <footer>
                         {tech && (
                           <StyledTechList>

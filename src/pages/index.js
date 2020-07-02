@@ -28,7 +28,7 @@ IndexPage.propTypes = {
 };
 
 export default IndexPage;
-
+// I deleted github from projects/ and /featured
 export const pageQuery = graphql`
   {
     hero: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hero/" } }) {
@@ -87,6 +87,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            category
             cover {
               childImageSharp {
                 fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
@@ -95,7 +96,6 @@ export const pageQuery = graphql`
               }
             }
             tech
-            github
             external
           }
           html
@@ -113,8 +113,8 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            category
             tech
-            github
             external
           }
           html

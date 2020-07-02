@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig, linkedin } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -23,9 +23,10 @@ const StyledContent = styled.div`
     ${mixins.inlineLink};
   }
 `;
+
+// grid-template-columns: repeat(2, minmax(140px, 200px));
 const SkillsContainer = styled.ul`
   display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
   overflow: hidden;
   padding: 0;
   margin: 20px 0 0 0;
@@ -101,7 +102,6 @@ const StyledAvatarLink = styled.a`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: ${colors.navy};
     mix-blend-mode: screen;
   }
   &:after {
@@ -129,7 +129,7 @@ const About = ({ data }) => {
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink href={linkedin}>
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>
