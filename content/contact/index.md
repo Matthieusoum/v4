@@ -1,6 +1,6 @@
 ---
 title: 'Get In Touch'
-buttonText: 'Say Hello'
+buttonText: 'E-mail me ✉️'
 ---
 
-I'm always looking for any new opportunities so my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you as soon as possible!
+I'm always seeking for new challenges. Whether you have a question or want to say hi, reach me out, and I'll get back to you ASAP.
