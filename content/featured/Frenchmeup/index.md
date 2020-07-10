@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '1'
 title: 'French Me Up'
 category: 'Building Website'
 cover: './frenchmeup.png'

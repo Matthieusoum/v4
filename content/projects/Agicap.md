@@ -10,4 +10,4 @@ company: 'Humind School'
 showInProjects: true
 ---
 
-Week 3 @Humind School: Prepare and test inbound marketing campaign for Agicap CFO community : Cash is King.
+Prepare and test inbound marketing campaign for Agicap CFO community : Cash is King.

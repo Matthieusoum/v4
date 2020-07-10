@@ -14,10 +14,10 @@ module.exports = {
   github: 'https://github.com/matthieusoum',
   linkedin: 'https://linkedin.com/in/matthieusoum',
   socialMedia: [
-    {
+    /*{
       name: 'GitHub',
       url: 'https://github.com/matthieusoum',
-    },
+    },*/
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/matthieusoum',

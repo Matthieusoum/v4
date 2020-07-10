@@ -10,4 +10,4 @@ company: 'Humind School'
 showInProjects: true
 ---
 
-Week 4 @Humind School : Cold-calling prospects, identify opportunities through BANT method and complete information on HubSpot CRM.
+Cold-calling prospects, identify opportunities through BANT method and complete information on HubSpot CRM.

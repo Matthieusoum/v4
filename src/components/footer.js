@@ -1,4 +1,7 @@
-import React, { useState, useEffect } from 'react';
+{
+  /* Delete  variable to import -> import React, { useState, useEffect } from 'react'; */
+}
+import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedIcon } from '@components/icons';
 import { socialMedia } from '@config';
@@ -43,8 +46,16 @@ const StyledMetadata = styled.div`
 const StyledGitHubLink = styled.a`
   color: ${colors.lightSlate};
   padding: 10px;
+  font-size: 10px;
 `;
-const StyledGitHubInfo = styled.div`
+
+const StyledCredits = styled.div`
+  color: ${colors.lightSlate};
+  padding: 10px;
+`;
+{
+  /* Delete const not use (StyledGithubInfo)
+  const StyledGitHubInfo = styled.div`
   margin-top: 10px;
 
   & > span {
@@ -59,8 +70,12 @@ const StyledGitHubInfo = styled.div`
     margin-right: 5px;
   }
 `;
+*/
+}
 
 const Footer = () => {
+  {
+    /* Delete counter stars & forks
   const [githubInfo, setGitHubInfo] = useState({
     stars: null,
     forks: null,
@@ -81,7 +96,8 @@ const Footer = () => {
       })
       .catch(e => console.error(e));
   }, []);
-
+*/
+  }
   return (
     <StyledContainer>
       <StyledSocial>
@@ -101,12 +117,13 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
+        <StyledCredits>2020 - Matthieu Soum - Paris, France</StyledCredits>
         <StyledGitHubLink
           href="https://github.com/bchiang7/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Huge thanks to Brittany Chiang.</div>
-
+          <div>Huge thanks to Brittany Chiang</div>
+          {/* Delete counter from Github
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
               <span>
@@ -118,7 +135,7 @@ const Footer = () => {
                 <span>{githubInfo.forks.toLocaleString()}</span>
               </span>
             </StyledGitHubInfo>
-          )}
+          )} */}
         </StyledGitHubLink>
       </StyledMetadata>
     </StyledContainer>

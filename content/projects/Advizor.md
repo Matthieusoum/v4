@@ -10,4 +10,4 @@ company: 'Humind School'
 showInProjects: true
 ---
 
-Week 2 @Humind School : Identify a shift and its consequences to highlight an opportunity in a market.
+Identify a shift and its consequences to highlight an opportunity in a market and build a value proposition.

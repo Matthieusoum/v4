@@ -10,4 +10,4 @@ company: 'Humind School'
 showInProjects: true
 ---
 
-Week 1 @Humind School : Get information for a vertical market by using scraping tools and make a scoring in function of different criteria selected.
+Get information for a vertical market by using scraping tools and make a scoring in function of different criteria selected to identify the best opportunities.

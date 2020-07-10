@@ -11,4 +11,4 @@ company: 'Humind School'
 showInProjects: true
 ---
 
-Week 5 @Humind School : Meeting training and simulation with Wedoogift by using BEBEDC method.
+Meeting training and simulation with Wedoogift by using BEBEDC method for sales pipeline.

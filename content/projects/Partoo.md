@@ -10,4 +10,4 @@ company: 'Humind School'
 showInProjects: true
 ---
 
-Week 6 @Humind School : Design an account-mapping strategy for Partoo in the DIY market.
+Design an account-mapping strategy for Partoo in the DIY market to identify stakeholders and increase closing rate.

@@ -13,6 +13,7 @@ const StyledContainer = styled(Section)`
 const StyledFlexContainer = styled.div`
   ${mixins.flexBetween};
   align-items: flex-start;
+  margin-bottom: 50px;
   ${media.tablet`display: block;`};
 `;
 const StyledContent = styled.div`
@@ -31,6 +32,9 @@ const SkillsContainer = styled.ul`
   padding: 0;
   margin: 20px 0 0 0;
   list-style: none;
+  ${media.tablet`grid-template-columns: repeat(1, minmax(500px, 1000px));`};
+  ${media.phablet`grid-template-columns: repeat(1, minmax(500px, 800px));`};
+  grid-template-columns: repeat(2, minmax(500px, 1000px));
 `;
 const Skill = styled.li`
   position: relative;
@@ -124,9 +128,6 @@ const About = ({ data }) => {
       <StyledFlexContainer>
         <StyledContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <SkillsContainer>
-            {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-          </SkillsContainer>
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={linkedin}>
@@ -134,6 +135,10 @@ const About = ({ data }) => {
           </StyledAvatarLink>
         </StyledPic>
       </StyledFlexContainer>
+      <u>Here are some tools and knowledges I'm familiar with :</u>
+      <SkillsContainer>
+        {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
+      </SkillsContainer>
     </StyledContainer>
   );
 };
