@@ -92,13 +92,15 @@ const mixins = {
     }
   `,
 
+  /* BG Color updated from transparent to color green */
   bigButton: css`
-    color: ${colors.green};
-    background-color: transparent;
+    color: ${colors.shadowNavy};
+    background-color: ${colors.green};
     border: 1px solid ${colors.green};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
+    font-weight: 600;
     font-family: ${fonts.SFMono};
     line-height: 1;
     text-decoration: none;

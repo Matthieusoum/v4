@@ -32,8 +32,10 @@ const SkillsContainer = styled.ul`
   padding: 0;
   margin: 20px 0 0 0;
   list-style: none;
-  ${media.tablet`grid-template-columns: repeat(1, minmax(500px, 1000px));`};
+  ${media.tablet`grid-template-columns: repeat(1, minmax(500px, 800px));`};
   ${media.phablet`grid-template-columns: repeat(1, minmax(500px, 800px));`};
+  ${media.desktop`grid-template-columns: repeat(1, minmax(500px, 1000px));`};
+  ${media.bigDesktop`grid-template-columns: repeat(1, minmax(500px, 1000px));`};
   grid-template-columns: repeat(2, minmax(500px, 1000px));
 `;
 const Skill = styled.li`
