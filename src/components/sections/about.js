@@ -69,17 +69,19 @@ const StyledPic = styled.div`
 `;
 const StyledAvatar = styled(Img)`
   position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
+  mix-blend-mode: normal;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
 `;
+// mix-blend-mode from multiply to normal - StyledAvatar
+// filter: grayscale(100%) contrast(1); Disabled - StyledAvatar
+//background-color: ${colors.green}; Disabled - StyledAvatarLink
+
 const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
   width: 100%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  background-color: ${colors.green};
   margin-left: -20px;
   &:hover,
   &:focus {
