@@ -18,6 +18,6 @@ skills:
 Passionate by new technologies and business, I enjoy keeping myself updated about digital/business trends and testing tools from the internet. I put a particular effort into delivering the best experience that my customer deserves and enjoying learning everyday.
 
 After graduading from [HETIC](https://www.hetic.net/), I've launched two projects [Coraye](https://www.coraye.com/) & [Hellow Studio](https://www.hellow.studio/).
-I also learned about B2B Sales by applying for a ten-week intensive bootcamp, [Humind School](https://www.humindschool.com/) which resulted at the end into a full time position at [Invenis](https://www.invenis.co/), a french start-up specialized in data solution.
+I also learned about B2B Sales by applying for a ten-week intensive bootcamp, [Humind School (now Akimbo)](https://www.akimbo.eu/) which resulted at the end into a full time position at [Invenis](https://www.invenis.co/), a french start-up specialized in data solution.
 
 Today, I'm looking for new growth management opportunities and hope to work on challenging and meaningful projects.
