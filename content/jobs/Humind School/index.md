@@ -1,10 +1,10 @@
 ---
 date: '2020-03-20'
 title: 'Bootcamp Sales B2B'
-company: 'Humind School'
+company: 'Akimbo (ex-Humind School)'
 location: 'Paris, FR'
 range: 'Mar 2020 - June 2020'
-url: 'https://humindschool.com'
+url: 'https://akimbo.eu'
 ---
 
 <i>An intensive 10-week bootcamp to become Sales in B2B</i>
