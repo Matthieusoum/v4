@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Matthieu Soum | Growth & Business Development',
-  siteDescription: 'Hello, I am a growth & business manager based in Paris, FR. My mission consists to build a strong method to bring new opportunities and increase sales for companies.',
+  siteDescription: 'Hello, I am a growth & business manager based in Paris. My role is to build strong methods to bring new opportunities & revenues for companies.',
   siteKeywords: 'Matthieu Soum, Matthieu, Soum, MatthieuSoum, business developer, account executive, account manager, business, SDR, BDR, sales development representative, business development representative, digital marketing, growth, growth marketing',
   siteUrl: 'https://soum.co',
   siteLanguage: 'en_US',
